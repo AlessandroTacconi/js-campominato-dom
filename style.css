@@ -81,6 +81,10 @@ main {
   background-color: lightsteelblue;
 }
 
+.red {
+  background-color: crimson;
+}
+
 footer {
   padding: 1rem;
 }
