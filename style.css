@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#play {
+  padding: 0.625rem 1rem;
+  border-radius: 1rem;
+  border: 2px solid lightcoral;
+  cursor: pointer;
+  background-color: lightsteelblue;
+}
+
+main {
+  flex-grow: 1;
+  background-color: lightcoral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.griglia {
+  max-height: 600px;
+  max-width: 600px;
+  background-color: lightcoral;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: start;
+}
+
+.casella {
+  background-color: lightcoral;
+  height: calc(100% / 10);
+  width: calc(100% / 10);
+  border: 1px solid black;
+  text-align: center;
+  line-height: calc(600px / 10);
+}
+
+.casella2 {
+  background-color: lightcoral;
+  height: calc(100% / 9);
+  width: calc(100% / 9);
+  border: 1px solid black;
+  text-align: center;
+  line-height: calc(600px / 9);
+}
+
+.casella3 {
+  background-color: lightcoral;
+  height: calc(100% / 7);
+  width: calc(100% / 7);
+  border: 1px solid black;
+  text-align: center;
+  line-height: calc(600px / 7);
+}
+
+.blue {
+  background-color: lightsteelblue;
+}
+
+footer {
+  padding: 1rem;
+}
+
+.fa-heart {
+  font-size: 1rem;
+}
+
+.boolean {
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none;
+}
